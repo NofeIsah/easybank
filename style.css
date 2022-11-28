@@ -1,0 +1,462 @@
+@import url('https://fonts.google.com/specimen/Public+Sans');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "public san", sans-serif;
+}
+
+@media (max-width: 670px) {
+  body{
+    font-family: public sans-serif;
+    font-weight: 300 400 700;
+  }
+  
+  .header {
+    height: 10vh;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .header-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+  }
+
+  .logo {
+    margin-right: 19rem;
+  }
+  .hero{
+    background-position: top;
+    background-image: url('./images/bg-intro-mobile.svg');
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .phone-des{
+    position: relative;
+    clip-path: inset(22% 0 0 0);
+    width: 100%;
+    margin-top: -8rem;
+  }
+
+  h2{
+    font-family: "public san";
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .paragraph {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300px;
+    font-family: "public san";
+    color: Bright Cyan hsl(192, 70%, 51%);
+    margin-bottom: 1rem;
+  }
+  .new-generationtop{
+    display: none;
+  }
+  .request-mobile{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-image: linear-gradient(
+      to right,
+      rgb(168, 192, 177),
+      rgb(48, 219, 48)
+    );}
+    .next{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .next-title h2{
+      font-size: 50px;
+  
+      text-align: center;
+    }
+    .next
+  
+  .long-list {
+    height: 5rem;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 250, 251);
+  }
+
+  .boddy {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .names {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .whole-long-list-two{
+    padding: 2rem;
+  }
+  .long-list-two {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 250, 251);
+  }
+  .picture-one {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 17rem;
+  }
+  .picture-two {
+    /* background-image: url(images/image-restaurant.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 17rem;
+  }
+  .picture-three {
+    /* background-image: url(images/image-plane.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 17rem;
+  }
+  .picture-four {
+    /* background-image: url(images/image-confetti.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 17rem;
+  }
+  .ejo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .write-up{
+    margin-top: 8rem;
+  }
+  .picturess{
+    height: 35rem;
+  
+  }
+  .picturess .recieve{
+    font-size: 30px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(21, 21, 40);
+    text-align: center;
+  }
+
+  .footer-logo {
+    color: white;
+  }
+  .footer-icon {
+    color: black;
+    width: 12rem;
+    margin-top: 1rem;
+  }
+  footer ul {
+    list-style: none;
+    color: white;
+  }
+  .footer-list li {
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .footer-copy {
+    color: white;
+    margin-top: 1rem;
+  }
+  .nav-list {
+    display: none;
+  }
+  .request-web {
+    display: none;
+  }
+  .parent-parent-web {
+    display: none;
+  }
+
+  .whole-desktop-list-one {
+    height: rem;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 250, 251);
+  }
+  .dlist-one {
+    display: block;
+  }
+  .icon {
+    text-align: center;
+  }
+  .heading {
+    text-align: center;
+  }
+  .footerweb{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 669px) {
+  .hamburger {
+    display: none;
+  }
+  .ejo {
+    font-size: 12px;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+  }
+
+  .header li {
+    margin-left: 1rem;
+  }
+  .request-web {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-image: linear-gradient(
+      to right,
+      rgb(168, 192, 177),
+      rgb(48, 219, 48)
+    );
+    margin-left: 3rem;
+  }
+  .logo {
+    margin-right: rem;
+  }
+  
+  .hero{
+    background-image: url('/images/bg-intro-desktop.svg');
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    width: 70%;
+    padding: 2rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+
+  }
+
+  .hero img{
+
+    clip-path: inset(18% 20% 0 0);
+    position: absolute;
+    left: 43%;
+    margin-top: -12rem;
+    margin-right: -4rem;
+    z-index: 99;
+  }
+
+  .general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .phone-des{
+    position: relative;
+    top: 0;
+    clip-path: inset(20% 0 0 0);
+    width: 100%;
+  }
+  .next{
+    display: none;
+  }
+  .parent-parent {
+    display: none;
+  }
+  .parent-parent-web {
+    height: 25rem;
+    width: 100%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .parent {
+    background-image: url("images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: rem;
+  }
+  .colorful {
+    width: 50%;
+  }
+
+  .phone-des {
+    /* width: 50%; */
+    /* position: absolute; */
+    /* bottom: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    clip-path: inset(15% 0 0 0);
+  }
+  .phones {
+    width: 50%;
+    height: 18rem;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem; */
+  }
+  .new-generationtop {
+    width: 50%;
+  }
+  .paragraph{
+    margin: 1rem 0 1rem 0;
+  }
+  .general .new-generationtop{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+
+  }
+  .whole-desktop-list-one {
+    padding: 3rem;
+  }
+  .desktop-list-one {
+    height: 18rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .dlist-one {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .icon {
+    text-align: right;
+  }
+  .latest {
+    text-align: left;
+  }
+  .long-list-two {
+    /* width: 100%;  */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+  .picture-one img {
+    width: 100%;
+
+  }
+  
+  .picturess {
+    width: 24%;
+    padding-bottom: 2rem;
+  }
+  .whole-long-list-two{
+    padding: 2rem;
+ }
+.recieve{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+footer{
+  display: none;
+}
+.footerweb{
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(32, 8, 84) ;
+  height: 9rem;
+  color: aliceblue;
+  padding: 2rem;
+}
+.web-icon{
+  
+  width: 12rem;
+  margin-top: 3rem;
+  
+}
+.list-web{
+  padding-bottom: 1rem;
+  list-style: none;
+  margin-left: 1rem;
+}
+.request-web{
+  padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-image: linear-gradient(
+      to right,
+      rgb(168, 192, 177),
+      rgb(48, 219, 48));
+}
+.p-web{
+margin-top: 3rem;
+}
+.list-web li{
+  list-style: none;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.whole-div-diagram{
+  padding: 4rem;
+  border: red 2px solid;
+}
+
+}
+
+
+
+
+
+
+
+
+
